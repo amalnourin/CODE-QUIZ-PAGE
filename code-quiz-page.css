@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.bg-container {
+    background-color: #875fc0;
+    padding: 40px 20px;
+    min-height: 100vh;
+}
+
+.score-text {
+    font-family: 'Roboto';
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 18px;
+    text-align: right;
+    padding: 20px;
+}
+
+.question-container {
+    background-color: #ffffff;
+    margin: 40px 20px;
+    padding: 16px;
+    border-radius: 10px;
+
+}
+
+.title-text {
+    font-family: 'Roboto';
+    font-size: 20px;
+    text-align: center;
+}
+
+.question-text {
+    font-family: 'Roboto';
+    font-size: 16px;
+    text-align: center;
+}
+
+.code-image {
+    max-width: 100%;
+    height: auto;
+}
+
+.option-list {
+    list-style-type: upper-alpha;
+    list-style-position: inside;
+    padding: 0;
+}
+
+.option-list li {
+    border-style: solid;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 10px;
+    background-color: #ffffff;
+}
+
+.submit-now-button {
+    background-color: #fbaf00;
+    color: #ffffff;
+    border-width: 0;
+    border-radius: 8px;
+    padding: 8px 20px;
+}
+
+.button {
+    text-align: center;
+}
+
+li.correct-option {
+    background-color: #875fc0;
+    color: #ffffff;
+}
